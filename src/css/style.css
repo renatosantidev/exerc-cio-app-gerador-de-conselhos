@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    font-family: 'Manrope', sans-serif;
+    color:var(--text-color);
+    font-weight: 800;
+}
+
+.fundo {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fundo .fundo-cartao {
+    background-color: var(--advice-card-color);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 5px 30px;
+    text-align: center;
+    border-radius: 10px;
+    width: 390px;
+    margin: 20px;
+}
+
+.fundo .fundo-cartao .numero-conselho {
+    font-size: 10px;
+    color: var(--advice-dice-color);
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.fundo .fundo-cartao .texto-conselho{
+    font-size: 20px;
+    padding-bottom: 20px;
+    max-width: 320px;
+}
+
+.fundo .fundo-cartao .caixa-divisor{
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.fundo .fundo-cartao .divisor-desktop{
+    max-width: 320px;
+}
+
+.fundo .fundo-cartao .divisor-mobile{
+    max-width: 320px;
+}
+
+.fundo .fundo-cartao .caixa-botao {
+    display: flex;
+    background-color: var(--advice-dice-color);
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    margin-bottom: -25px;
+}
+
+.fundo .fundo-cartao .botao {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
